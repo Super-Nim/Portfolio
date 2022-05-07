@@ -119,6 +119,7 @@ code {
 }
 
 .projects__card {
+  display: grid;
   max-width: 350px;
 
   padding: 20px;
@@ -147,7 +148,11 @@ code {
 }
 
 .projects__card .button {
-  margin: 10px 5px 0;
+  margin: 0 auto;
+}
+
+.button__container {
+  display: flex;
 }
 
 /* ------------------------------------------------------ */
