@@ -113,7 +113,7 @@ code {
 .projects__cards {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -141,7 +141,7 @@ code {
 
 .projects__card img {
   width: 100%;
-  height: auto;
+  height: 150px;
   margin: 20px 0 10px;
 
   border-radius: 8px;
@@ -154,6 +154,7 @@ code {
 .button__container {
   display: flex;
 }
+
 
 /* ------------------------------------------------------ */
 /* -- Education/Experience -- */

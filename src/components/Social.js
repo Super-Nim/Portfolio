@@ -1,11 +1,13 @@
+import { Button } from "@mui/material"
+
 const Social = () => {
     return (
         <div className="social">
             <h2>Contact</h2>
 
-            <a href="" className="button">mwo248@yahoo.com</a>
-            <a href="https://www.linkedin.com/" className="button">LinkedIn</a>
-            <a href="https://github.com/" className="button">GitHub</a>
+            <Button variant="contained" href="mailto:mwo248@yahoo.com" className="button">mwo248@yahoo.com</Button>
+            <Button variant="contained" href="https://www.linkedin.com/in/hakeem-whitmore/" className="button">LinkedIn</Button>
+            <Button variant="contained" href="https://github.com/Super-Nim" className="button">GitHub</Button>
         </div>
     );
 }

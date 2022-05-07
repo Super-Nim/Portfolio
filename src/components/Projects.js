@@ -3,6 +3,11 @@ import cryptouniteimg from '../assets/cryptouniteimg.png';
 import deximg2 from '../assets/deximg2.png';
 import dex2 from '../assets/dex2.png'
 import daoimg from '../assets/daoimg.png';
+import { Button } from '@mui/material';
+
+const daoStyle = {
+    height: '200px'
+}
 
 const Projects = () => {
     return (
@@ -16,7 +21,7 @@ const Projects = () => {
                     <img src={cryptouniteimg} alt="Uniswap Swap Page" />
                     <p>My first project. A Decentralized charity that uses governance voting to decide where funds should be allocated
                     </p>
-                    <a href="https://github.com/Super-Nim/Cryptounite" target="_blank" className="button">Code</a>
+                    <Button variant="contained" href="https://github.com/Super-Nim/Cryptounite" target="_blank" className="button" sx={{height: '36.5px'}}>Code</Button>
                 </div>
 
                 <div className="projects__card">
@@ -25,17 +30,16 @@ const Projects = () => {
                     <p>My best project. A Decentralized Exchange that uses chainlink oracles for its price feed, on the Kovan network.
                     </p>
                     <div className="button__container">
-                    <a href="https://compound.finance/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/Super-Nim/DEX" target="_blank" className="button">Code</a>
+                    <Button variant="contained"  href="https://github.com/Super-Nim/DEX" target="_blank" className="button" sx={{height: '36.5px'}}>Code</Button>
                     </div>
                 </div>
 
                 <div className="projects__card">
                     <h3>DAO</h3>
-                    <img src={daoimg} alt="Aave Landing Page" />
-                    <p>A basic Decentralized Autonomous Organization. Contributing makes you an investor who can then create proposals that others can vote on.
+                    <img src={daoimg} alt="Aave Landing Page"  style={daoStyle} />
+                    <p>Basic Decentralized Autonomous Organization. Contributing makes you an investor who can then create proposals that others can vote on.
                     </p>
-                    <a href="https://github.com/Super-Nim/DAO" target="_blank" className="button">Code</a>
+                    <Button variant="contained"  href="https://github.com/Super-Nim/DAO" target="_blank" className="button">Code</Button>
                 </div>
             </div>
         </section>
