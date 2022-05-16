@@ -27,10 +27,11 @@ const Projects = () => {
                 <div className="projects__card">
                     <h3>DEX</h3>
                     <img src={dex2} alt="Compound Landing Page" />
-                    <p>My best project. A Decentralized Exchange that uses chainlink oracles for its price feed, on the Kovan network.
+                    <p>My best project. A Decentralized Exchange that uses a pre-funded DEX, trading chart, and limit orders on the Ropsten network.
                     </p>
                     <div className="button__container">
                     <Button variant="contained"  href="https://github.com/Super-Nim/DEX" target="_blank" className="button" sx={{height: '36.5px'}}>Code</Button>
+                    <Button variant="contained"  href="https://raspy-recipe-8125.on.fleek.co/" target="_blank" className="button" sx={{height: '36.5px'}}>Site</Button>
                     </div>
                 </div>
 
