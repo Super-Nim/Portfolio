@@ -26,6 +26,25 @@ const Experience = () => {
           </ul>
         </li>
         <li>
+          <i>EatTheBlocks</i> - <strong>Student Alumni</strong>, 2021-2022
+          <ul>
+            <li>
+              Participated in a course designed to transition web 2 developers
+              to web 3. Taught by reputable web 3 developers such as Julien
+              Klepatch, Patrick Collins, and Nader Dabit. The course included:
+            </li>
+            <ul>
+              <li>Smart Contact Security and best practices</li>
+              <li>Limiting access to functions via function modifiers and visibility modifiers</li>
+              <li>Guard against Reentrancy attacks</li>
+              <li>Preventing over/underflow errors when dealing with legacy code, older than version 0.8.0</li>
+              <li>Writing, testing and deploying Smart Contracts via Truffle/Web3.js/Mocha frameworks</li>
+              <li>ERC721/NFT smart contract design and implementation into a Decentralized Application (Dapp)</li>
+              <li>Decentralized Exchange (DEX) project deployed to Ropsten test net</li>
+            </ul>
+          </ul>
+        </li>
+        <li>
           <i>IN4.0 Group Talent Academy</i> - <strong>Graduate Intern</strong>,
           2020-2020
           <ul>
@@ -58,7 +77,7 @@ const Experience = () => {
         </li>
         <li>
           <i>University of Helsinki MOOC (Java)</i> -{" "}
-          <strong>Graduate Student</strong>, 2019-2022
+          <strong>Graduate Student</strong>, 2020-2020
           <ul>
             <li>
               Completed the Java Programming I course from the University of
