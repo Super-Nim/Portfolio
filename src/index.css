@@ -121,6 +121,7 @@ code {
 .projects__card {
   display: grid;
   max-width: 350px;
+  height: 480px;
 
   padding: 20px;
 
@@ -152,7 +153,12 @@ code {
 }
 
 .button__container {
+  margin-top: 5px;
   display: flex;
+}
+
+.text__container {
+  height: 96px;
 }
 
 

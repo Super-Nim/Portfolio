@@ -5,8 +5,35 @@ const Experience = () => {
 
       <ul>
         <li>
-          <i>Ricoh Europe</i> - <strong>Full Stack Web Developer</strong>{" "}
+          <i>Polygon Hackathon</i> - <strong>Polygon Hacker</strong>, May
+          2022-June 2022
+          <ul>
+            <li>
+              Developed a full-stack Decentralized application (Dapp) for the
+              Maxja Festival, hosted in Sardinia. The Dapp enabled users to
+              purchase MATIC/USDC with their credit card, mint a NFT ticket and
+              receive 10% discount on their accomodation, and present it as
+              proof of purchase. The tech stack used is:
+            </li>
+            <ul>
+              <li>React.js (with TypeScript)</li>
+              <li>Moralis</li>
+              <li>Polygon Network</li>
+              <li>IPFS</li>
+              <li>Solidity</li>
+              <li>Hardhat, Remix, and Ethers.js</li>
+            </ul>
+          </ul>
+        </li>
+        <li>
+          <i>Ricoh Europe</i> - <strong>Full Stack Web Developer</strong>, Oct
           2021-Current
+          <ul>
+          <li>
+            Angular and Node.JS/GraphQL focused role for an analytical
+            application. Implementing new features, fixing bugs and unit
+            testing.
+          </li>
           <ul>
             <li>
               Angular and Node.JS/GraphQL focused role for an analytical
@@ -24,9 +51,11 @@ const Experience = () => {
               functions in the backend.
             </li>
           </ul>
+          </ul>
         </li>
         <li>
-          <i>EatTheBlocks</i> - <strong>Student Alumni</strong>, 2021-2022
+          <i>EatTheBlocks</i> - <strong>Student Alumni</strong>, Aug 2021-Feb
+          2022
           <ul>
             <li>
               Participated in a course designed to transition web 2 developers
@@ -35,18 +64,29 @@ const Experience = () => {
             </li>
             <ul>
               <li>Smart Contact Security and best practices</li>
-              <li>Limiting access to functions via function modifiers and visibility modifiers</li>
+              <li>
+                Limiting access to functions via function modifiers and
+                visibility modifiers
+              </li>
               <li>Guard against Reentrancy attacks</li>
-              <li>Preventing over/underflow errors when dealing with legacy code, older than version 0.8.0</li>
-              <li>Writing, testing and deploying Smart Contracts via Truffle/Web3.js/Mocha frameworks</li>
-              <li>ERC721/NFT smart contract design and implementation into a Decentralized Application (Dapp)</li>
-              <li>Decentralized Exchange (DEX) project deployed to Ropsten test net</li>
+              <li>
+                Preventing over/underflow errors when dealing with legacy code,
+                older than version 0.8.0
+              </li>
+              <li>
+                Writing, testing and deploying Smart Contracts via
+                Truffle/Web3.js/Mocha frameworks
+              </li>
+              <li>
+                ERC721/NFT smart contract design and implementation into a
+                Decentralized Application (Dapp)
+              </li>
             </ul>
           </ul>
         </li>
         <li>
           <i>IN4.0 Group Talent Academy</i> - <strong>Graduate Intern</strong>,
-          2020-2020
+          Sep 2020-Dec 2020
           <ul>
             <li>
               Participated in a six-week commercial project with partnered
@@ -72,23 +112,6 @@ const Experience = () => {
                 Liaising with key stakeholders, presenting ideas, suggestions,
                 and outcomes
               </li>
-            </ul>
-          </ul>
-        </li>
-        <li>
-          <i>University of Helsinki MOOC (Java)</i> -{" "}
-          <strong>Graduate Student</strong>, 2020-2020
-          <ul>
-            <li>
-              Completed the Java Programming I course from the University of
-              Helsinki – designed for 140 hours of content containing:
-            </li>
-            <ul>
-              <li>Object Orient Programming</li>
-              <li>Functional Programming</li>
-              <li>Separating the user interface from program logic</li>
-              <li>Unit testing</li>
-              <li>Sort and search/Binary algorithms</li>
             </ul>
           </ul>
         </li>
