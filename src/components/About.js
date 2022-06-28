@@ -7,7 +7,7 @@ const About = () => {
       <p>
         Self-taught, Full-Stack Web Developer working at Ricoh Europe. Striving
         to enter the Web 3 space as a Blockchain Developer. Recently completed the Polygon Hackathon - looking to further
-        develop an NFT platform that utlizes: ERC2981 royalties, subscriptions, and memberships. 
+        develop an NFT platform that utilizes: ERC2981 royalties, subscriptions, and memberships. 
       </p>
     </section>
   );
