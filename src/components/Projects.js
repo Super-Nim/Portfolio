@@ -18,7 +18,7 @@ const Projects = () => {
             <div className="projects__cards">
 
                 <div className="projects__card">
-                    <h3>Maxja-Project</h3>
+                    <h3>Maxja Project</h3>
                     <img src={homePage2} alt="Maxja Festival" />
                     <div className="text__container">
                     <p>An NFT Minter Dapp for the Maxja Festival 2022! Register for the airdrop, purchase your NFT ticket and view in the Dapp!
