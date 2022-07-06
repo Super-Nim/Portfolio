@@ -5,6 +5,22 @@ const Experience = () => {
 
       <ul>
         <li>
+          <i>Solidity Bootcamp</i> - <strong>Student</strong>, May 2022-Current
+          <ul>
+            <li>
+              Currently upskilling my Solidity knowledge in an intense 8-week
+              bootcamp with Encode Club. Lectured by Matheus Pagani, CEO of 4CADIA Foundation,
+              the course includes:
+            </li>
+            <ul>
+              <li>Upgradeability patterns - diamond patterns, proxy and metamorphic contracts</li>
+              <li>Scaling solutions - Optimism and ZK snarks</li>
+              <li>Bridges – intra-bridges and cross-chain bridges</li>
+              <li>Assembly</li>
+            </ul>
+          </ul>
+        </li>
+        <li>
           <i>Polygon Hackathon</i> - <strong>Polygon Hacker</strong>, May
           2022-June 2022
           <ul>
@@ -29,28 +45,28 @@ const Experience = () => {
           <i>Ricoh Europe</i> - <strong>Full Stack Web Developer</strong>, Oct
           2021-Current
           <ul>
-          <li>
-            Angular and Node.JS/GraphQL focused role for an analytical
-            application. Implementing new features, fixing bugs and unit
-            testing.
-          </li>
-          <ul>
             <li>
               Angular and Node.JS/GraphQL focused role for an analytical
               application. Implementing new features, fixing bugs and unit
               testing.
             </li>
-            <li>
-              Implemented a new user interface for providing analytics that
-              enables our customers to down or upscale their office spaces,
-              saving £500k-£1M in the process.
-            </li>
-            <li>
-              Delivered an automated process of sending emails to
-              administrators, fire marshals, and first aiders via cloud
-              functions in the backend.
-            </li>
-          </ul>
+            <ul>
+              <li>
+                Angular and Node.JS/GraphQL focused role for an analytical
+                application. Implementing new features, fixing bugs and unit
+                testing.
+              </li>
+              <li>
+                Implemented a new user interface for providing analytics that
+                enables our customers to down or upscale their office spaces,
+                saving £500k-£1M in the process.
+              </li>
+              <li>
+                Delivered an automated process of sending emails to
+                administrators, fire marshals, and first aiders via cloud
+                functions in the backend.
+              </li>
+            </ul>
           </ul>
         </li>
         <li>
@@ -80,37 +96,6 @@ const Experience = () => {
               <li>
                 ERC721/NFT smart contract design and implementation into a
                 Decentralized Application (Dapp)
-              </li>
-            </ul>
-          </ul>
-        </li>
-        <li>
-          <i>IN4.0 Group Talent Academy</i> - <strong>Graduate Intern</strong>,
-          Sep 2020-Dec 2020
-          <ul>
-            <li>
-              Participated in a six-week commercial project with partnered
-              companies such as BAE Systems, Siemens, and NatWest.
-            </li>
-            <li>
-              <i>The six-week project involved:</i>
-            </li>
-            <ul>
-              <li>
-                Testing plug-in options using a WordPress site hosted on Amazon
-                Web Services (AWS)
-              </li>
-              <li>
-                Integrating preferred plug-ins for a mobile application,
-                creating a better user experience
-              </li>
-              <li>
-                Increasing and maintaining customer engagement through
-                competitor analysis and testing
-              </li>
-              <li>
-                Liaising with key stakeholders, presenting ideas, suggestions,
-                and outcomes
               </li>
             </ul>
           </ul>
